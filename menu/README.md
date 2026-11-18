@@ -37,7 +37,7 @@ Este catálogo reúne los platillos del menú documentado de **RedPepper** (*Red
 | Producto | Precio Ref. | Identidad y Valor Especial | Imagen (`.webp` transparente) |
 |---|---:|---|---|
 | **Alitas Glazed x6** | S/ 16.50 | **Glaseado de autor**: seis alitas crujientes recién fritas, bañadas en una reducción brillante y espesa de maracuyá natural con ají panca ahumado, terminadas con ajonjolí tostado y finos aros de cebollita china fresca. | ![Alitas Glazed x6](../imagenes/alitas-glazed-x6.webp) |
-| **Costillar BBQ Ahumado** | S/ 18.00 | **Ahumado lento al carbón**: medio costillar jugoso de cerdo ahumado lentamente, glaseado con salsa BBQ casera de ají panca caramelizada al fuego y acompañado de papas nativas doradas con perejil fresco. | *Pendiente por límite temporal de cuota en `generate_image` (prompt listo abajo).* |
+| **Costillar BBQ Ahumado** | S/ 18.00 | **Ahumado lento al carbón**: medio costillar jugoso de cerdo ahumado lentamente, glaseado con salsa BBQ casera de ají panca caramelizada al fuego y acompañado de papas nativas doradas con perejil fresco. | ![Costillar BBQ Ahumado](../imagenes/costillar-bbq-ahumado.webp) |
 
 ---
 
@@ -45,20 +45,17 @@ Este catálogo reúne los platillos del menú documentado de **RedPepper** (*Red
 
 | Producto | Precio Ref. | Identidad y Valor Especial | Imagen (`.webp` transparente) |
 |---|---:|---|---|
-| **Refresco Pulpa Natural — Chicha Morada** | S/ 5.50 | **Frescura tradicional**: maíz morado *culli* con aroma sutil de piña y especias, servido helado en vaso liso transparente con hielo cristalino, rodaja de limón fresco y gotas reales de condensación fría. | *Pendiente por límite temporal de cuota en `generate_image` (prompt listo abajo).* |
-| **Refresco Pulpa Natural — Maracuyá** | S/ 5.50 | **Pulpa fresca cítrica**: jugo natural de maracuyá con notas ácidas vibrantes, pequeñas semillas naturales auténticas, hielo abundante, hoja fresca de menta y condensación fría real en el vaso. | *Pendiente por límite temporal de cuota en `generate_image` (prompt listo abajo).* |
+| **Refresco Pulpa Natural — Chicha Morada** | S/ 5.50 | **Frescura tradicional**: maíz morado *culli* con aroma sutil de piña y especias, servido helado en vaso liso transparente con hielo cristalino, rodaja de limón fresco y gotas reales de condensación fría. | *Pendiente por límite temporal de cuota en Nano Banana (`gemini-3.1-flash-image`) (prompt listo abajo).* |
+| **Refresco Pulpa Natural — Maracuyá** | S/ 5.50 | **Pulpa fresca cítrica**: jugo natural de maracuyá con notas ácidas vibrantes, pequeñas semillas naturales auténticas, hielo abundante, hoja fresca de menta y condensación fría real en el vaso. | *Pendiente por límite temporal de cuota en Nano Banana (`gemini-3.1-flash-image`) (prompt listo abajo).* |
 
 ---
 
-## Prompts Listos para Completar los 3 Ítems Pendientes (Usando `real-food-photography`)
+## Prompts Listos para Completar las 2 Bebidas Pendientes (Usando `real-food-photography`)
 
-Cuando la cuota de `generate_image` se restablezca, ejecuta estos 3 prompts y exporta a `imagenes/*.webp` con fondo transparente siguiendo el Paso 5 de [`SKILL.md`](../skills/real-food-photography/SKILL.md):
+Cuando la cuota de `generate_image` (`gemini-3.1-flash-image`) se restablezca, ejecuta estos 2 prompts y exporta a `imagenes/*.webp` con fondo transparente siguiendo el Paso 5 de [`SKILL.md`](../skills/real-food-photography/SKILL.md):
 
-1. **`imagenes/costillar-bbq-ahumado.webp`** (`AspectRatio: 4:3`)
-   > Authentic commercial catalog food photography of a generous Costillar BBQ Ahumado (smoky BBQ pork ribs), isolated on a clean, seamless matte white studio background with a flat horizontal surface. Standardized business dishware: a classic, clean, glossy white porcelain dinner plate with a smooth gently sloped rim sits firmly flat in the center on the white surface. A hearty, meaty half-rack of wood-smoked pork ribs basted in dark mahogany homemade Peruvian aji panca BBQ glaze with caramelized smoky char edges, nestled alongside an abundant portion of rustic golden native french fries inside the same plate, finished with a subtle pinch of fresh chopped parsley. Shot with a full-frame camera and an 85mm prime lens at f/6.3, soft diffused daylight from the left, gentle white bounce fill on the right, realistic grounded contact shadow.
-
-2. **`imagenes/refresco-chicha-morada.webp`** (`AspectRatio: 3:4`)
+1. **`imagenes/refresco-chicha-morada.webp`** (`AspectRatio: 3:4`)
    > Authentic commercial catalog beverage photography of a chilled 500ml Peruvian Chicha Morada natural drink, isolated on a clean, seamless matte white studio background with a flat horizontal surface. A single tall, straight-sided clear smooth drinking glass sits firmly flat in the center, filled to a strictly horizontal level with vibrant deep-purple maize culli chicha morada, crystal-clear irregular ice cubes floating near the top, one fresh bright-green lime wheel at the liquid surface, and fine cold condensation droplets beading down the glass exterior. Soft diffused daylight from the left with clean translucent backlight and grounded contact shadow, 85mm prime lens at f/6.3.
 
-3. **`imagenes/refresco-maracuya.webp`** (`AspectRatio: 3:4`)
+2. **`imagenes/refresco-maracuya.webp`** (`AspectRatio: 3:4`)
    > Authentic commercial catalog beverage photography of a chilled 500ml Peruvian Maracuyá natural pulp drink, isolated on a clean, seamless matte white studio background with a flat horizontal surface. A single tall, straight-sided clear smooth drinking glass sits firmly flat in the center, filled to a strictly horizontal level with sunny golden-amber natural passionfruit juice featuring a few authentic dark passionfruit seeds, crystal-clear irregular ice cubes, a fresh mint sprig and thin lime slice at the ice line, and fine cold condensation droplets beading down the glass exterior. Soft diffused daylight from the left with clean translucent backlight and grounded contact shadow, 85mm prime lens at f/6.3.
